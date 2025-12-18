@@ -22,6 +22,27 @@ Perfect for educational purposes, research visualization, or understanding molec
 - Multi-molecule comparison tools
 - Orbital energy and occupancy analysis
 
+## Prerequisites
+
+**Software:**
+- Python 3.8 or higher
+- PyMOL (for visualization)
+
+**Python Libraries:**
+```bash
+pip install -r requirements.txt
+```
+- PySCF >= 2.0.0 (quantum chemistry calculations)
+- h5py >= 3.0.0 (data storage)
+- numpy >= 1.20.0 (numerical operations)
+
+**PyMOL Installation:**
+- macOS: `brew install pymol`
+- Linux: `sudo apt-get install pymol` or `conda install -c conda-forge pymol-open-source`
+- Windows: Download from https://pymol.org/
+
+See `INSTALL.md` for detailed setup instructions.
+
 ## Quick Start
 
 ### 1. Calculate Orbitals (Most Accurate Method)
@@ -109,12 +130,3 @@ Predefined in `molecules.py`:
 - Positive (colored): ψ > 0
 - Negative (gray): ψ < 0
 - Threshold typically 0.02-0.05
-
-## Full Documentation
-
-See `README_full.md` for complete documentation including:
-- All calculation methods (HF, DFT, CCSD)
-- Geometry optimization
-- Superposition animations
-- Unreal Engine export
-- Detailed theory and examples
