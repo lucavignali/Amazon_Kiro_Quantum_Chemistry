@@ -1,6 +1,26 @@
 # Quantum Orbital Calculator & Visualizer
 
-Calculate and visualize molecular orbitals using PySCF with the most accurate methods (CCSD).
+A Python toolkit for computing and visualizing molecular orbitals using high-accuracy quantum chemistry methods. Built on PySCF, this project makes it easy to explore the electronic structure of atoms and molecules through 3D visualizations.
+
+## What This Does
+
+This toolkit bridges quantum chemistry calculations and visual exploration:
+
+- **Calculate** molecular orbitals using state-of-the-art methods (CCSD - Coupled Cluster Singles Doubles)
+- **Export** wavefunctions to standard cube file format for visualization
+- **Visualize** orbitals in PyMOL with automatic isosurface rendering
+- **Compare** orbitals across different molecules side-by-side
+
+Perfect for educational purposes, research visualization, or understanding molecular electronic structure.
+
+## Features
+
+- Pre-configured molecules (atoms, diatomics, polyatomics) ready to calculate
+- High-accuracy CCSD calculations with correlation-consistent basis sets
+- Automatic cube file generation for any orbital
+- PyMOL integration with customizable visualization scripts
+- Multi-molecule comparison tools
+- Orbital energy and occupancy analysis
 
 ## Quick Start
 
